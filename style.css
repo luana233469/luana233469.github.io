@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+  }
+
+  header {
+    background-color: #c01d1d;
+    padding: 1px 0;
+  }
+
+  nav ul {
+    display: flex;              /* Torna os <li> horizontais */
+    list-style: none;           /* Remove os marcadores */
+    margin: 1;
+    padding: 1;
+    justify-content: center;    /* Centraliza os itens no nav */
+  }
+
+  nav ul li {
+    margin: 0 15px;
+  }
+
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    display: block;
+  }
+
+  nav ul li a:hover {
+    background-color: #555;
+    border-radius: 4px;
+  }
+
+Adicionar comentário para a turma...
+
+
+Aviso: "CÓDIGO para aula 6 de maio <nav> <ul>…"
+DOUGLAS CUNHA COUTO
+Criado em: 6 de mai.6 de mai.
+CÓDIGO para aula 6 de maio
+
+<nav>
+  <ul>
+  <li><a href="#">ITEM 1</a></li>
+  <li><a href="#">ITEM 2</a></li>
+  <li><a href="#">ITEM 3</a></li>
+  <li><a href="#">ITEM 4</a></li>
+  </ul>
+</nav>
